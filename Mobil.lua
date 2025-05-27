@@ -1216,8 +1216,8 @@ local function JSFL_fake_script() -- hood.Key
 		return req(obj)
 	end
 
-	getgenv().Key = "dev1"
-	getgenv().Ver = 1
+	--getgenv().Key = "dev1"
+	--getgenv().Ver = 1
 	
 	local Settings = {
 		["Games"] = {
